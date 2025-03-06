@@ -8,14 +8,15 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 export default function Hero({ appDownloadButtons }) {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-secondary to-[#F2F2F2] "
+      className="w-full bg-top bg-repeat bg-cover font-mainFont"
       id="home"
+      style={{ backgroundImage: `url(${content.texts.hero.heroImg})` }}
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[100px] desktop3:h-[140px]" />
-          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[68px] desktop1:pb-[96px]">
-            <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
+          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center ">
+            <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                   <p className="mb-[16px] bg-primary text-labelsIcons bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
@@ -94,15 +95,19 @@ export default function Hero({ appDownloadButtons }) {
                 )}
               </div>
             </div>
-            <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+            <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[35%] ">
               <MotionDivDownToUp className="relative flex justify-end w-full ">
-                <div
+                <img
+                  src={content.texts.hero.personImg}
+                  className="relative desktop2:right-10"
+                ></img>
+                {/* <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-primary"
                   style={{
                     backgroundImage: `url(${content.texts.hero.heroImg})`,
                     backgroundSize: "",
                   }}
-                ></div>
+                ></div> */}
               </MotionDivDownToUp>
             </div>
           </div>
