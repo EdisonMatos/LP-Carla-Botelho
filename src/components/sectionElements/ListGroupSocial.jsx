@@ -37,8 +37,8 @@ export default function ListGroupSocial({ LightMode }) {
             ? "text-black"
             : "text-white"
           : scrolling
-          ? "text-lighter"
-          : "text-lighter transition-color duration-1000"
+          ? "text-black"
+          : "text-black transition-color duration-1000"
       }`}
     >
       <li className="transition group h-[24px] ">
@@ -59,8 +59,8 @@ export default function ListGroupSocial({ LightMode }) {
                     ? "hover:text-black"
                     : "hover:text-white"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[0]}
@@ -72,8 +72,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-white"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -97,8 +97,8 @@ export default function ListGroupSocial({ LightMode }) {
                     ? "hover:text-black"
                     : "hover:text-white"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[1]}
@@ -110,8 +110,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-white"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -134,8 +134,8 @@ export default function ListGroupSocial({ LightMode }) {
                     ? "hover:text-black"
                     : "hover:text-white"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[2]}
@@ -147,8 +147,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-white"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -171,8 +171,8 @@ export default function ListGroupSocial({ LightMode }) {
                     ? "hover:text-black"
                     : "hover:text-white"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[3]}
@@ -184,8 +184,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-white"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
