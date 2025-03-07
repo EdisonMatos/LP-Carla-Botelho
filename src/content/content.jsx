@@ -1,10 +1,12 @@
 import logo from "../assets/imgs/logo/logoDark.png";
-import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import heroImg from "../assets/imgs/hero/lawHeroPhone.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
+import personImg from "../assets/imgs/hero/person.png";
+import personImgPhone from "../assets/imgs/hero/personPhone.png";
 
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
@@ -104,6 +106,8 @@ const content = {
       subtitle:
         "Especialista na área, ofereço suporte jurídico estratégico para garantir sua segurança profissional.",
       heroImg: heroImg,
+      personImg: personImg,
+      personImgPhone: personImgPhone,
       ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (

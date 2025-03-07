@@ -116,7 +116,7 @@ export default function SidebarSocial({ LightMode }) {
                           className={`${
                             LightMode
                               ? "text-black"
-                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-white"
+                              : "p-0 m-0 -mt-[16px] overflow-hidden font-medium text-black"
                           } list-none text-paragraph3 font-mainFont`}
                         >
                           <li>
