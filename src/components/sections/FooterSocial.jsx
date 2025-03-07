@@ -42,7 +42,7 @@ export default function FooterSocial({
                   <img
                     src={content.texts.navbar.logo.img}
                     alt={content.texts.navbar.logo.alt}
-                    className="max-h-[88px] w-auto"
+                    className="max-h-[88px] w-[90%]"
                     // className="max-h-[88px] w-auto bg-white p-[12px]"
                   ></img>
                 </div>
