@@ -15,7 +15,7 @@ export default function Hero({ appDownloadButtons }) {
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[100px] desktop3:h-[140px]" />
-          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center ">
+          <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
               <MotionDivDownToUp>
                 <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
@@ -96,10 +96,14 @@ export default function Hero({ appDownloadButtons }) {
               </div>
             </div>
             <div className="flex justify-center w-[90%] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[35%] ">
-              <MotionDivDownToUp className="relative flex justify-end w-full ">
+              <MotionDivDownToUp className="relative flex items-end justify-center w-full desktop2:justify-end">
                 <img
                   src={content.texts.hero.personImg}
-                  className="relative desktop2:right-10"
+                  className="relative hidden desktop2:right-10 desktop1:flex"
+                ></img>
+                <img
+                  src={content.texts.hero.personImgPhone}
+                  className="h-[100%]  relative desktop1:hidden"
                 ></img>
                 {/* <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-primary"
