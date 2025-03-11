@@ -6,7 +6,7 @@ import aboutSocial from "../assets/imgs/about/aboutSocial.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 import personImg from "../assets/imgs/hero/person.png";
-import personImgPhone from "../assets/imgs/hero/personPhone.png";
+import personImgPhone from "../assets/imgs/hero/Carlarecorte.png";
 
 import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 import imgAppStore from "../assets/imgs/hero/appStore.webp";
