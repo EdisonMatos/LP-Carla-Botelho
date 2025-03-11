@@ -47,7 +47,7 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "Dra. Carla Botelho",
   email: "contato", // Email desejado pelo cliente
-  domain: "carlabotelho.com.br", // Sem "www"
+  domain: "carlabotelho.adv.br", // Sem "www"
   phone: {
     ddd: "65",
     firstPart: "99952", // Apenas os 5 primeiros números (incluindo o 9)
