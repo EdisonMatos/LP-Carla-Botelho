@@ -100,10 +100,12 @@ export default function Hero({ appDownloadButtons }) {
                 <img
                   src={content.texts.hero.personImg}
                   className="relative hidden desktop1:right-10 desktop1:flex"
+                  alt="Foto da advogada dra. Carla Botelho"
                 ></img>
                 <img
                   src={content.texts.hero.personImgPhone}
                   className="h-[100%]  relative desktop1:hidden"
+                  alt="Foto da advogada dra. Carla Botelho"
                 ></img>
                 {/* <div
                   className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-primary"
