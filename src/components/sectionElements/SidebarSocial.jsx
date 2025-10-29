@@ -60,7 +60,7 @@ export default function SidebarSocial({ LightMode }) {
             LightMode
               ? scrolled
                 ? "text-black"
-                : "text-white"
+                : "text-black"
               : "text-primary"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
@@ -102,7 +102,7 @@ export default function SidebarSocial({ LightMode }) {
                       className={`${
                         LightMode
                           ? "text-black"
-                          : "h-2rem w-2rem p-[5px] text-white"
+                          : "h-2rem w-2rem p-[5px] text-black"
                       }`}
                     ></Button>
                   </span>
